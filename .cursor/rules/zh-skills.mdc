@@ -1,0 +1,6 @@
+---
+description: 中文工程规范
+alwaysApply: true
+---
+
+请遵循项目根目录 AGENTS.md 中的中文工程规范，并参考 .claude/skills/ 下的具体技能。

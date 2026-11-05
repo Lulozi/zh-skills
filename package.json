@@ -1,0 +1,42 @@
+{
+  "name": "zh-skills",
+  "version": "1.0.0",
+  "description": "给中文开发者的 AI 编程中文工程规范技能包：命名、注释、文档、commit、体检，多工具一键安装",
+  "keywords": [
+    "claude-code",
+    "skills",
+    "agent",
+    "chinese",
+    "中文",
+    "规范",
+    "ai-coding",
+    "code-review"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "bin": {
+    "zh-skills": "./bin/zh-skills.js"
+  },
+  "main": "./src/cli.js",
+  "files": [
+    "bin",
+    "src",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lulozi/zh-skills.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lulozi/zh-skills/issues"
+  },
+  "homepage": "https://github.com/Lulozi/zh-skills"
+}
